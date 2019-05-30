@@ -1,0 +1,11 @@
+A program that uses DNA.txt to find the frequency if g,c,a and t in the string.
+Stores the charaters in a min heap.
+
+Algorithm Used
+
+1. Build a min heap that contains 4 nodes where each node represents root of a tree with
+   single node.
+2. Find two nodes with minimum occurrence and add them to create a root node.
+3. Repeat this process iteratively until all nodes are covered.
+4. Find the position of each node with respect to the root node. Left has a code '0' and right has a code '1'.
+   Example: If a node is on the left of root node, the code is 0. The code of its left child node will be 00 and right child node will be 01.
