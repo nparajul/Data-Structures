@@ -2,7 +2,6 @@
 #include<vector>
 #include<fstream>
 
-
 using namespace std;
 
 string processTxt(string input)
