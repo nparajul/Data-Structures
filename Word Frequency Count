@@ -1,1 +1,2 @@
 Finds the word(s) with highest number of occurrence in a text file.
+Requires an "input.txt" file
