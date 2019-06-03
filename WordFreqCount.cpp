@@ -96,7 +96,7 @@ list<T,U>::~list()
 
 void processText(string text)
 {
-	//clears all charcters except english alphabets and spaces
+	//clears all characters except english alphabets and spaces
 	ofstream outfile;
 	outfile.open("processedText.txt");
 
